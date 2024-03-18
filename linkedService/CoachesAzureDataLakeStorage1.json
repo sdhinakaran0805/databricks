@@ -1,0 +1,12 @@
+{
+	"name": "CoachesAzureDataLakeStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sdtokyoolympic.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ5NDQ2NTNDLTlGREItNEYxNy1CMzY2LUI3QjMyMUI0RTkzOV9hMjE3YTM0Mi0zZTE4LTQ3OWQtODAwNS00ZjIxMmIyMzI4OTEiDQp9"
+		}
+	}
+}
